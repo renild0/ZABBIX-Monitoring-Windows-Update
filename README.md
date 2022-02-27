@@ -16,3 +16,6 @@ Timeout=30 UnsafeUserParameters=1 EnableRemoteCommands=1
 And add the UserParameter line: UserParameter=CountUninstalledUpdates,powershell -NoProfile -ExecutionPolicy bypass -File "C:\Program Files\Zabbix Agent\Scripts\CountUninstalledUpdates.ps1"
 
 Third step: Access the Zabbix Front: Add the Template to the host and restart the Agent service on the monitored client.
+
+
+![image](https://user-images.githubusercontent.com/88397673/155885516-4f15a038-6d5a-49a9-a140-93c9fe2a1e0c.png)
